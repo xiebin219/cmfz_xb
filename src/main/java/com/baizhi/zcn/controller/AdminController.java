@@ -33,6 +33,7 @@ public class AdminController {
         BufferedImage image = ImageCodeUtil.createImage(code);
         //4.设置相应的格式
         response.setContentType("image/png");
+        system.out.println("git传输测试");
         try {
             //5.将验证码响应到前台页面
             ImageIO.write(image,"png",response.getOutputStream());
