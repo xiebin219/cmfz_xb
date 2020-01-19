@@ -1,0 +1,21 @@
+server:
+  port: 8989
+  servlet:
+    context-path: /cmfz
+    jsp:
+      init-parameters:
+        development: true
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cmfz
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.baizhi.zcn.entity
+  mapper-locations: classpath:com/baizhi/zcn/mapper/*Mapper.xml

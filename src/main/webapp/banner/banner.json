@@ -1,0 +1,26 @@
+{
+  "total":"3",
+  "records":"9",
+  "page":"1",
+  "rows":[
+    {
+      "id":"1",
+      "srcImg":"1575276675280-timg.jpg",
+      "description":"这是个好图片",
+      "status":"1",
+      "uploadTime":"2019-12-02"
+    },{
+      "id":"2",
+      "srcImg":"1575277208006-psb (1).jpg",
+      "description":"这是个好图片",
+      "status":"0",
+      "uploadTime":"2019-12-02"
+    },{
+      "id":"3",
+      "srcImg":"1575277499821-u=259561680,1404053686&fm=26&gp=0.jpg",
+      "description":"这是个好图片",
+      "status":"1",
+      "uploadTime":"2019-12-02"
+    }
+  ]
+}
